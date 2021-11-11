@@ -88,13 +88,18 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Simpan" />
+        android:text="Simpan"
+        android:backgroundTint="@color/success"
+        />
+
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Batal" />
+        android:text="Batal"
+        android:backgroundTint="@color/danger"
+        />
     </LinearLayout>
 
 </LinearLayout>
