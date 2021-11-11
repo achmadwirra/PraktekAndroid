@@ -9,13 +9,13 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/namatextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nama" />
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/namaEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Nama Lengkap"
@@ -24,13 +24,13 @@
         />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/emailtextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email" />
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/emailEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Email"
@@ -39,13 +39,13 @@
         />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/handphonetextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Handphone" />
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/handphoneEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi No Handphone"
@@ -54,13 +54,13 @@
         />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tanggaltextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tanggal Lahir" />
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/tanggalEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Tanggal Lahir (dd/MM/yyyy"
@@ -69,13 +69,13 @@
         />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/matakuliahtextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jumlah Mata Kuliah" />
 
     <EditText
-        android:id="@+id/textView"
+        android:id="@+id/matakuliahEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Isi Jumlah Mata Kuliah"
@@ -91,7 +91,7 @@
         >
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/simpanButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Simpan"
@@ -101,7 +101,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/batalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Batal"
